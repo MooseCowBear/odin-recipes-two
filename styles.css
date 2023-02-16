@@ -42,7 +42,7 @@ h1 {
 
 ul.recipes {
     margin-top: 1em;
-    display: grid; /* 1 */
+    display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-gap: 1rem; 
     
@@ -55,10 +55,6 @@ ul.recipes {
     background-color: #EFFBFA;
     border-radius: 10px;
     min-width: 21 em;
-}
-
-.li-container {
-    
 }
 
 .preview {
@@ -130,7 +126,7 @@ ul.one-col li, ol.one-col li {
     font-size: 12px;
  }
 
- /* some imag positions needed their own adjustments */
+ /* one image position needed its own adjustment */
  .recipe-img.baked {
     object-position: 30% 30%;
  }
